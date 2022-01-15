@@ -47,7 +47,7 @@ if __name__ == '__main__':
 
     elif x == 2 :
 
-        cipherText = "mkwtskwvudgmv"
+        cipherText = "VGWKFGLHJGNAVWLZWKSEWDWNW"
         key = "s"
         plainText = caesarCipher(key, cipherText=cipherText).decrypt()
         print(plainText)

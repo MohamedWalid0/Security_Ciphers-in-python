@@ -62,8 +62,8 @@ if __name__ == '__main__':
 
     elif x == 2 :
 
-        cipherText = "pcbxsdawaaxh"
-        keyword = "hand"
+        cipherText = "TUCPKVAVVNYIXRKWVOLWDCXIW"
+        keyword = "Hupperich"
         key = vigenereCipher().generateKey(cipherText , keyword)
 
         plainText = vigenereCipher().decrypt(cipherText , key)
